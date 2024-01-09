@@ -35,3 +35,27 @@ $(document).ready(function(){
     $('.navbar-nav .nav-item .nav-link').eq(0).addClass('active');
     $('.navbar-nav .nav-item .nav-link:link').eq(0).removeClass('inactive');
 });
+
+
+function typeEffect() {
+    const text = "Build Your Data Skills";
+    const typedText = document.getElementById("typed-text");
+    let index = 0;
+
+    function type() {
+        if (index < text.length) {
+            typedText.innerHTML += text.charAt(index);
+            index++;
+            setTimeout(type, 200); // Adjust typing speed (milliseconds)
+        } else {
+            index = 0;
+            typedText.innerHTML = "";
+            type(); // Restart typing effect continuously
+        }
+    }
+
+    type();
+}
+
+// Call the function to start the typing effect
+typeEffect();
