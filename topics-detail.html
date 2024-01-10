@@ -21,6 +21,10 @@
         <link href="css/bootstrap-icons.css" rel="stylesheet">
 
         <link href="css/templatemo-topic-listing.css" rel="stylesheet">
+
+        <link href="css/templatemo-topic-listing.css" rel="stylesheet">
+        
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 <!--
 
 TemplateMo 590 topic listing
@@ -38,7 +42,7 @@ https://templatemo.com/tm-590-topic-listing
                 <div class="container">
                     <a class="navbar-brand" href="index.html">
                         <i class="bi-back"></i>
-                        <span>Topic</span>
+                        <span>Daniel Analytics</span>
                     </a>
 
                     <div class="d-lg-none ms-auto me-4">
@@ -52,34 +56,38 @@ https://templatemo.com/tm-590-topic-listing
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-lg-5 me-lg-auto">
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="index.html#section_1">Home</a>
+                                <a class="nav-link click-scroll" href="#section_1">Home</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="index.html#section_2">Browse Topics</a>
+                                <a class="nav-link click-scroll" href="#section_2">SPN</a>
                             </li>
     
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="index.html#section_3">How it works</a>
+                                <a class="nav-link click-scroll" href="#section_3">Course Sprints</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="index.html#section_4">FAQs</a>
+                                <a class="nav-link click-scroll" href="#section_4">FAQs</a>
                             </li>
     
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="index.html#section_5">Contact</a>
+                                <a class="nav-link click-scroll" href="#section_5">Contact</a>
                             </li>
 
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#section_5" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+                            <li class="nav-item">
+                                <a href="topics-detail.html" class="btn custom-btn mt-2 mt-lg-3">Get Started</a>
+                            </li>
+
+                            <!--<li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
 
                                 <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
                                     <li><a class="dropdown-item" href="topics-listing.html">Topics Listing</a></li>
 
                                     <li><a class="dropdown-item" href="contact.html">Contact Form</a></li>
                                 </ul>
-                            </li>
+                            </li>-->
                         </ul>
 
                         <div class="d-none d-lg-block">
@@ -94,7 +102,7 @@ https://templatemo.com/tm-590-topic-listing
                 <div class="container">
                     <div class="row justify-content-center align-items-center">
 
-                        <div class="col-lg-5 col-12 mb-5">
+                        <div class="col-lg-6 col-12 mb-5">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="index.html">Homepage</a></li>
@@ -110,13 +118,13 @@ https://templatemo.com/tm-590-topic-listing
                                 From understanding theory to mastering hands-on projects, become both skilled and job-ready for the tech field.
                             </p>
                             <div class="d-flex align-items-center mt-5">
-                                <a href="#topics-detail" class="btn custom-btn custom-border-btn smoothscroll me-4">Read More</a>
+                                <a href="#section_4" class="btn custom-btn custom-border-btn smoothscroll me-4">Read More</a>
 
                                 <a href="#top" class="custom-icon bi-bookmark smoothscroll"></a>
                             </div>
                         </div>
 
-                        <div class="col-lg-5 col-12">
+                        <div class="col-lg-6 col-12">
                             <div class="topics-detail-block bg-white shadow-lg">
                                 <img src="images/topics/undraw_Remote_design_team_re_urdx.png" class="topics-detail-block-image img-fluid">
                             </div>
@@ -127,24 +135,76 @@ https://templatemo.com/tm-590-topic-listing
             </header>
 
 
-            <section class="topics-detail-section section-padding" id="topics-detail">
+            <section class="faq-section section-padding" id="section_4">
                 <div class="container">
                     <div class="row">
 
                         <div class="col-lg-12 col-12 m-auto">
-                            <h1 class="mb-4 text-center">Courses designed for 21st-century tech careers</h3>
+                            <h1 class="mb-4 text-center">Courses designed for 21st-century tech careers</h1>
 
                             <p class="text-center">Begin with the basics and become job-ready for the dynamic tech industry.</p>
+                            <br><br>
                             <!--<blockquote>
                                 Freelancing your skills isn’t going to make you a millionaire overnight.
                             </blockquote>-->
                         </div>
+                        
+                        <div class="col-lg-8 col-12 m-auto">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Flexible Learning
+                                        </button>
+                                    </h2>
 
+                                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Your learning, your schedule.<br>
+                                            Take a more relaxed pace, allowing you to balance learning with your current commitments.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Healthy Mind, Healthy Career
+                                    </button>
+                                    </h2>
+
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Dive into our <strong>Personal Development</strong> materials, a treasure trove of vital 'soft' skills. 
+                                            Learn the art of team leadership, overcome impostor syndrome, manage your finances effectively, 
+                                            and ensure mental well-being, among other invaluable lessons.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Professional Development
+                                    </button>
+                                    </h2>
+
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            We go beyond technical skills.<br>
+                                            We ensure you're not just technically proficient but also workplace-ready. 
+                                            Our curriculum covers everything from interview preparation to building self-confidence, 
+                                            preparing you for success beyond the classroom.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
 
-            <section class="faq-section section-padding" id="section_4">
+            <!--<section class="faq-section section-padding" id="section_4">
                 <div class="container">
                     <div class="row">
 
@@ -202,7 +262,7 @@ https://templatemo.com/tm-590-topic-listing
 
                     </div>
                 </div>
-            </section>
+            </section>-->
 
             <section class="timeline-section section-padding" id="section_3">
                 <div class="section-overlay"></div>
@@ -211,7 +271,9 @@ https://templatemo.com/tm-590-topic-listing
                     <div class="row">
 
                         <div class="col-12 text-center">
-                            <h2 class="text-white mb-4">Course Sprints</h1>
+                            <h2 class="text-white mb-4">What you'll learn</h2>
+                            <p class="text-white">Our course is designed to give you the skills you need to excel in data analytics.</p>
+                            <br>
                         </div>
 
                         <div class="col-lg-10 col-12 mx-auto">
@@ -223,12 +285,11 @@ https://templatemo.com/tm-590-topic-listing
 
                                     <li>
                                         <h4 class="text-white mb-3">Soft Skills For Data Analysts</h4>
-
-                                        <ul>
-                                            <p class="text-white"> - Master The Art Of Communication And Presentation</p>
-                                            <p class="text-white"> - Storytelling For Data Analytics</p>
-                                            <p class="text-white"> - Problem Solving With The CCAA Framework</p>
-                                        </ul>
+                                        <p class="text-white">The Soft Skills module is a specialized exploration into the non-technical competencies crucial for success in the field. 
+                                            Here, students will immerse themselves in honing vital interpersonal, communication, and problem-solving skills essential for effective data analysis, 
+                                            enabling data analysts to not only crunch numbers but also effectively convey insights, foster collaboration, 
+                                            and drive impactful decision-making across diverse professional landscapes.</p>
+                                        
 
                                         <div class="icon-holder">
                                           <i class="fas fa-comments"></i>
@@ -236,13 +297,11 @@ https://templatemo.com/tm-590-topic-listing
                                     </li>
                                     
                                     <li>
-                                        <h4 class="text-white mb-3">Microsoft Excel For Data Analytics &amp; Statistics</h4>
+                                        <h4 class="text-white mb-3">Spreadsheets For Data Analytics &amp; Statistics</h4>
 
-                                        <ul>
-                                            <p class="text-white"> - Statistical Concepts In Excel</p>
-                                            <p class="text-white"> - Data Cleaning, Modeling &amp; Power Query In Excel</p>
-                                            <p class="text-white"> - Data Visualization In Excel</p>
-                                        </ul>
+                                        <p class="text-white">The Preparing Data module delves into data and spreadsheet expertise, using Google Sheets or Excel as our platform. 
+                                        Here, you'll learn how to efficiently retrieve, manipulate, and visualize data. The module is designed to equip you with the 
+                                        skills to draw actionable insights and make informed decisions, offering a comprehensive guide to data preparation and analysis.</p>
 
                                         <div class="icon-holder">
                                           <i class="bi-file-spreadsheet"></i>
@@ -252,11 +311,10 @@ https://templatemo.com/tm-590-topic-listing
                                     <li>
                                         <h4 class="text-white mb-3">Power BI For Dashboards &amp; Insights</h4>
 
-                                        <ul>
-                                            <p class="text-white"> - Data Modeling &amp; DAX Formulas In Power BI</p>
-                                            <p class="text-white"> - Visualization &amp; Dashboards</p>
-                                            <p class="text-white"> - Insights &amp; How They Contribute To Data Reporting</p>
-                                        </ul>
+                                        <p class="text-white">The Data Visualisation and Storytelling module is all about using Power BI to show off your data. 
+                                            You'll learn how to get your data into the system, clean it up, and make it look good. By the end, you'll be able 
+                                            to take any set of numbers and turn them into a clear and engaging story.</p>
+                                    
 
                                         <div class="icon-holder">
                                           <i class="bi bi-bar-chart"></i>
@@ -264,13 +322,12 @@ https://templatemo.com/tm-590-topic-listing
                                     </li>
 
                                     <li>
-                                        <h4 class="text-white mb-3">SQL For Data Understanding &amp; Reporting</h4>
+                                        <h4 class="text-white mb-3">SQL For Data Management</h4>
 
-                                        <ul>
-                                            <p class="text-white"> - Becoming A SQL Ninja</p>
-                                            <p class="text-white"> - Advanced SQL Queries For Reporing And Analysis</p>
-                                            <p class="text-white"> - Data Analyst Katana: Merging Excel, Power BI &amp; SQL</p>
-                                        </ul>
+                                        <p class="text-white">In the SQL (Structured Query Language) module, you'll learn how to work with databases, 
+                                            which are the backbone of most big data projects. From the basics of how databases work to designing and running your own, 
+                                            you'll get a clear overview of what SQL is all about and why it's so important.</p>
+                                        
 
                                         <div class="icon-holder">
                                           <i class="bi bi-code"></i>
@@ -280,11 +337,10 @@ https://templatemo.com/tm-590-topic-listing
                                     <li>
                                         <h4 class="text-white mb-3">Python For Advanced Data Cleaning &amp; Data Analytics </h4>
 
-                                        <ul>
-                                            <p class="text-white"> - Understanding Python Concepts For Data Analytics.</p>
-                                            <p class="text-white"> - Advanced Python Libraries For Data Analytics.</p>
-                                            <p class="text-white"> - Data Visualizations With Python.</p>
-                                        </ul>
+                                        <p class="text-white">With the Python module, you'll dive into one of the go-to languages for data analytics. You'll learn about 
+                                            the Notebook environment, work with different data types, and get hands-on with writing functions and data analysis. 
+                                            It's everything you need to start working confidently with Python.</p>
+                                        
 
                                         <div class="icon-holder">
                                           <i class="bi bi-code"></i>
@@ -304,15 +360,59 @@ https://templatemo.com/tm-590-topic-listing
                 </div>
             </section>
 
+            <section class="faq-section section-padding" id="section_4">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-12 m-auto">
+                            <h2 class="mb-4 text-center">Curated by experts</h2>
+                            <br><br>
+                        </div>
+                        
+                        <div class="col-lg-4 col-lg-4 m-auto">
+                            <div class="custom-block bg-white shadow-lg">
+                                <a href="topics-detail.html">
+                                    <div class="d-flex">
+                                        <div>
+                                            <h5 class="mb-2">Foundations</h5>
+
+                                            <p class="mb-0">Topic Listing Template based on Bootstrap 5</p>
+                                        </div>
+
+                                        <span class="badge bg-design rounded-pill ms-auto">14</span>
+                                    </div>
+
+                                    <img src="images/topics/undraw_Remote_design_team_re_urdx.png" class="custom-block-image img-fluid" alt="">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-lg-4 m-auto">
+                            <div class="custom-block bg-white shadow-lg">
+                                <a href="topics-detail.html">
+                                    <div class="d-flex">
+                                        <div>
+                                            <h5 class="mb-2">Foundations</h5>
+
+                                            <p class="mb-0">Topic Listing Template based on Bootstrap 5</p>
+                                        </div>
+
+                                        <span class="badge bg-design rounded-pill ms-auto">14</span>
+                                    </div>
+
+                                    <img src="images/topics/undraw_Remote_design_team_re_urdx.png" class="custom-block-image img-fluid" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section class="section-padding section-bg">
                 <div class="container">
                     <div class="row justify-content-center">
 
-                        <div class="col-lg-5 col-12">
-                            <img src="images/rear-view-young-college-student.jpg" class="newsletter-image img-fluid" alt="">
-                        </div>
-
-                        <div class="col-lg-5 col-12 subscribe-form-wrap d-flex justify-content-center align-items-center">
+                        <div class="col-lg-12 col-12 subscribe-form-wrap d-flex justify-content-center align-items-center">
                             <form class="custom-form subscribe-form" action="#" method="post" role="form">
                                 <h4 class="mb-4 pb-2">Get Newsletter</h4>
 
